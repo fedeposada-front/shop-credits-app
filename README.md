@@ -1,18 +1,20 @@
-Shop Credits App
+🛍️ Shop Credits App
 
-Aplicación web desarrollada en React que simula un sistema de canje de créditos por productos, seguimiento de pedidos y recuperación de créditos mediante reseñas.
+Aplicación web desarrollada en React que simula un sistema de canje de créditos por productos, con seguimiento de pedidos y recuperación de créditos mediante reseñas.
+
+👉 Deploy: https://shop-credits-app-j6sl.vercel.app/
 
 ⸻
 
 🚀 Tecnologías utilizadas
 	•	React + Vite
-	•	React Router DOM (navegación)
-	•	Context API (estado global)
-	•	Styled-components (estilos)
-	•	React Toastify (notificaciones)
-	•	React Helmet Async (SEO y metadata)
+	•	React Router DOM – navegación
+	•	Context API – estado global
+	•	Styled-components – estilos
+	•	React Toastify – notificaciones
+	•	React Helmet Async – SEO y metadata dinámica
 	•	React Icons
-	•	Bootstrap (base de estilos)
+	•	Bootstrap – base de estilos
 
 ⸻
 
@@ -21,63 +23,79 @@ Aplicación web desarrollada en React que simula un sistema de canje de crédito
 🛒 Productos
 	•	Listado dinámico de productos desde API
 	•	Canje de productos usando créditos
-	•	Toast de confirmación al agregar al carrito
-	•	SEO dinámico con Helmet
+	•	Notificación (toast) al agregar productos al carrito
+	•	SEO dinámico por página con Helmet
 
 🧺 Carrito
 	•	Visualización de productos seleccionados
-	•	Eliminación de productos
-	•	Cálculo automático de créditos
+	•	Eliminación de productos del carrito
+	•	Cálculo automático de créditos consumidos
 
 📦 Checkout
-	•	Formulario de envío
+	•	Formulario de datos de envío
 	•	Confirmación del pedido
 	•	Generación de pedido activo
 
 📍 Pedidos
 	•	Visualización del pedido activo
-	•	Timeline de estados (confirmado → en camino → reseña)
-	•	Estado vacío centrado cuando no hay pedidos
-	•	Acceso a reseña cuando corresponde
+	•	Timeline de estados:
+	•	Confirmado
+	•	En camino
+	•	Reseña
+	•	Estado vacío centrado cuando no hay pedidos activos
+	•	Acceso a la reseña cuando el pedido finaliza
 
 ⭐ Reseñas
 	•	Evaluación de productos
 	•	Recuperación de créditos
-	•	Estado vacío centrado si no hay créditos a recuperar
+	•	Estado vacío centrado cuando no hay créditos a recuperar
 
 ⸻
 
 🔔 Notificaciones
 	•	Toast al agregar productos al carrito
-	•	Toast de errores al cargar datos
+	•	Toast de error al fallar la carga de datos
 
 ⸻
 
 🧠 Buenas prácticas aplicadas
 	•	Componentes reutilizables
-	•	Manejo de estados con Context
+	•	Manejo de estado global con Context API
 	•	Styled-components con props transitorias ($prop)
-	•	Separación clara de páginas y componentes
-	•	Manejo de estados vacíos (empty states)
+	•	Separación clara entre páginas y componentes
+	•	Manejo explícito de empty states
+	•	SEO dinámico por vista
 
 ⸻
 
 ▶️ Cómo ejecutar el proyecto
+	1.	Instalar dependencias:
 
 npm install
+
+
+	2.	Ejecutar en entorno de desarrollo:
+
 npm run dev
 
-Abrir en el navegador:
+
+	3.	Abrir en el navegador:
 
 http://localhost:5173
+
 
 
 ⸻
 
 📌 Notas
 
-Este proyecto forma parte de un entregable académico, priorizando buenas prácticas, claridad de código y experiencia de usuario.
+Este proyecto forma parte de un entregable académico, priorizando:
+	•	Buenas prácticas
+	•	Claridad de código
+	•	Experiencia de usuario
 
 ⸻
 
-👨‍💻 Desarrollado con React
+👨‍💻 Autor
+
+Desarrollado con ❤️ usando React.
