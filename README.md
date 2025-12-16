@@ -69,30 +69,22 @@ Aplicación web desarrollada en React que simula un sistema de canje de crédito
 ⸻
 
 ▶️ Cómo ejecutar el proyecto
+
+	
 	1.	Instalar dependencias:
 
-npm install
+	npm install
 
 
 	2.	Ejecutar en entorno de desarrollo:
 
-npm run dev
+	npm run dev
 
 
 	3.	Abrir en el navegador:
 
-http://localhost:5173
+	http://localhost:5173
 
-
-
-⸻
-
-📌 Notas
-
-Este proyecto forma parte de un entregable académico, priorizando:
-	•	Buenas prácticas
-	•	Claridad de código
-	•	Experiencia de usuario
 
 ⸻
 
