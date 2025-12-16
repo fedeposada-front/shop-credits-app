@@ -1,4 +1,4 @@
-🛍️ Shop Credits App
+✅ Shop Credits App
 
 Aplicación web desarrollada en React que simula un sistema de canje de créditos por productos, con seguimiento de pedidos y recuperación de créditos mediante reseñas.
 
