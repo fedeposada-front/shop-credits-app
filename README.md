@@ -88,6 +88,6 @@ Aplicación web desarrollada en React que simula un sistema de canje de crédito
 
 ⸻
 
-👨‍💻 Autor
+👨‍💻 Autor: Fede Posada
 
 Desarrollado con ❤️ usando React.
